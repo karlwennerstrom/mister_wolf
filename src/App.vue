@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
               
-               <router-link class="navbar-brand fw-bold" to="/"><img src="src/assets/img/logo---mr---wolf-2.png" class="logo-site" img-fluid alt=""></router-link>
+               <router-link class="navbar-brand fw-bold" to="/"><img src="/src/assets/img/logo---mr---wolf-2.png" class="logo-site" img-fluid alt=""></router-link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
