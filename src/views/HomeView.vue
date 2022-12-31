@@ -14,8 +14,8 @@ import TheWelcome from '@/components/TheWelcome.vue'
                             <h1 class="display-1 lh-1 mb-3">WE SOLVE PROBLEMS.</h1>
                             <p class="lead fw-normal text-muted mb-5">Damos solución a tus problemas con Inteligencia Artifical, te entregamos herramientas para que puedas emprender sin gastar de más.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
-                                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="src/assets/img/google-play-badge.svg" alt="..." /></a>
-                                <a href="#!"><img class="app-badge" src="src/assets/img/app-store-badge.svg" alt="..." /></a>
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="/src/assets/img/google-play-badge.svg" alt="..." /></a>
+                                <a href="#!"><img class="app-badge" src="/src/assets/img/app-store-badge.svg" alt="..." /></a>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="src/assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="/src/assets/img/demo-screen.mp4" type="video/mp4" /></video>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="src/assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="/src/assets/img/demo-screen.mp4" type="video/mp4" /></video>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
                 <h2 class="text-center text-white font-alt mb-4">Descarga la APP en tu celular</h2>
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
                     <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="/src/assets/img/google-play-badge.svg" alt="..." /></a>
-                    <a href="#!"><img class="app-badge" src="src/assets/img/app-store-badge.svg" alt="..." /></a>
+                    <a href="#!"><img class="app-badge" src="/src/assets/img/app-store-badge.svg" alt="..." /></a>
                 </div>
             </div>
         </section>
