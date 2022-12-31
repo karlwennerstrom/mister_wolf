@@ -4,7 +4,7 @@
 
     <div class="row d-flex justify-content-center ">
     <div class="contenedor-logo text-center">
-        <img src="src/assets/img/logo---mr---wolf-2.png" class="" img-fluid alt="">
+        <img src="/src/assets/img/logo---mr---wolf-2.png" class="" img-fluid alt="">
     </div>
     </div>
 

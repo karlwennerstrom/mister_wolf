@@ -53,7 +53,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">"Es una solución increíble para ahorrar tiempo generando contenido, o usar cualquier herramienta para nuestro emprendimiento"</div>
-                        <img src="src/assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
+                        <img src="/src/assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
                     </div>
                 </div>
             </div>
