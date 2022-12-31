@@ -2,6 +2,7 @@
   "name": "qr-chile",
   "version": "0.0.0",
   "scripts": {
+    "start": "node app.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173"
