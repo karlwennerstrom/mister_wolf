@@ -262,7 +262,12 @@ app.post('/api/boletas/login',(req,res)=>{
 
 })
 
+app.route('/*')
+    .get(function(req, res) {
+          res.sendFile(path.join(__dirname + '/dist/index.html'));
+});
 
+module.exports = app;
 
 
 const puerto = 3000;
@@ -271,3 +276,4 @@ app.listen(process.env.PORT || puerto,function(){
     console.log("Servidor Ok en puerto:"+puerto);
 
 })
+
