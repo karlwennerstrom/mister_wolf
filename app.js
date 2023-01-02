@@ -24,29 +24,29 @@ app.use(session({
 
 
 const conexion=require('./database/db');
-app.set('view-engine','ejs')
+//app.set('view-engine','ejs')
 app.use(express.urlencoded({extended:false}))
 
- app.get('/',function(req,res){
+//  app.get('/',function(req,res){
    
- })
+//  })
 
-app.get('/login',(req,res)=>{
+// app.get('/login',(req,res)=>{
 
  
 
-})
+// })
 
-app.get('/register',(req,res)=>{
+// app.get('/register',(req,res)=>{
 
    
 
-})
-app.get('/boletas',(req,res)=>{
+// })
+// app.get('/boletas',(req,res)=>{
 
     
 
-})
+// })
 
 
 
