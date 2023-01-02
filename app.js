@@ -27,9 +27,9 @@ const conexion=require('./database/db');
 app.set('view-engine','ejs')
 app.use(express.urlencoded({extended:false}))
 
-app.get('/',function(req,res){
+// app.get('/',function(req,res){
    
-})
+// })
 
 app.get('/login',(req,res)=>{
 
