@@ -261,14 +261,13 @@ app.post('/api/boletas/login',(req,res)=>{
     // }
 
 })
-
+var path = require('path')
 app.route('/*')
     .get(function(req, res) {
-          res.sendFile('/dist/index.html');
+          res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
 
 module.exports = app;
-
 
 const puerto = 3000;
 app.listen(process.env.PORT || puerto,function(){
